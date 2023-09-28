@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dqQsmv8ExheAO7fgBk+XLpPpvoFmKCe5Kh+L9R2JS5lfKqV6/dkkFEbJ/HaKxvgD6FArFUO6YeFjDlSHGda53A==",
+  "success": true,
+  "projectFilePath": "/home/vitor/RiderProjects/projeto-paradigmas-2023-2/trab/trab.fsproj",
+  "expectedPackageFiles": [
+    "/home/vitor/.nuget/packages/fsharp.core/7.0.400/fsharp.core.7.0.400.nupkg.sha512"
+  ],
+  "logs": []
+}
