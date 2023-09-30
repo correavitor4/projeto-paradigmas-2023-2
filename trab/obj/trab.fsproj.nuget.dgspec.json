@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/vitor/RiderProjects/projeto-paradigmas-2023-2/trab/trab.fsproj": {}
+    "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj": {}
   },
   "projects": {
-    "/home/vitor/RiderProjects/projeto-paradigmas-2023-2/trab/trab.fsproj": {
+    "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vitor/RiderProjects/projeto-paradigmas-2023-2/trab/trab.fsproj",
+        "projectUniqueName": "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj",
         "projectName": "trab",
-        "projectPath": "/home/vitor/RiderProjects/projeto-paradigmas-2023-2/trab/trab.fsproj",
-        "packagesPath": "/home/vitor/.nuget/packages/",
-        "outputPath": "/home/vitor/RiderProjects/projeto-paradigmas-2023-2/trab/obj/",
+        "projectPath": "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj",
+        "packagesPath": "C:\\Users\\corre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vitor/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\corre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/share/dotnet/sdk/7.0.401/FSharp/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.401\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
