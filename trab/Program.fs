@@ -1,10 +1,8 @@
 ﻿module main
 
-open trab.Bag
-open System
-open trab
+open trab.HigherOrderFunctions
 
 [<EntryPoint>]
 let main _ =
-    execBag
+    execHighOrderFunctions
     0
