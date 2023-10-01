@@ -11,6 +11,7 @@
         <Compile Include="HighOrderFunctions.fs" />
         <Compile Include="Curry.fs" />
         <Compile Include="Utils\Pause.fs" />
+        <Compile Include="Closure.fs" />
         <Compile Include="Program.fs"/>
     </ItemGroup>
 
