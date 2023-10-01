@@ -7,9 +7,9 @@ open trab.Utils.Pause
 
 [<EntryPoint>]
 let main _ =
-    // execHighOrderFunctions
-    // makePause None
-    // execCurry
-    // makePause None
+    execHighOrderFunctions
+    makePause None
+    execCurry
+    makePause None
     execClosure
     0
