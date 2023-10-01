@@ -34,7 +34,7 @@ let execHighOrderFunctions =
             
     //Função que coloca os itens na mochila
     let putItemsInBag (items: BagItem[]) (maxWeight: float) =
-        let mutable availableWeight: float  = maxWeight
+        let mutable availableWeight: float = maxWeight
         //A função Array.fold recebe uma função acumulação como parâmetro (para ser função de alta ordem)
         Array.fold (fun (acc: float) item ->
                 let newAcc, newAvailableWeight = evaluateItem acc item availableWeight
