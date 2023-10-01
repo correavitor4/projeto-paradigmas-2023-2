@@ -1,6 +1,6 @@
 ﻿module trab.Curry
 
- type Item = { Titulo: string; CargaHoraria: int; Categoria: string }
+type Item = { Titulo: string; CargaHoraria: int; Categoria: string }
 
 let filtroPorTitulo (tit: string) (arr: Item list) =
     List.filter (fun item -> item.Titulo.Contains(tit)) arr
@@ -30,11 +30,12 @@ let filtrarPorCategoria = filtroPorCategoria "projeto"
 
 let filteredData =
     filtrarPorTitulo >> filtrarPorCargaHoraria >> filtrarPorCategoria <| filter1
-let printFilteredData filteredData =
-    printfn "Resultados da filtragem:"
-    List.iter (fun item ->
-        printfn "Título: %s, Carga Horária: %d, Categoria: %s"
-            item.Titulo item.CargaHoraria item.Categoria
-    ) filteredData
+let printFilteredData = 
+    fun filteredData ->
+        printfn "Resultados da filtragem:"
+        List.iter (fun item ->
+            printfn "Título: %s, Carga Horária: %d, Categoria: %s"
+                item.Titulo item.CargaHoraria item.Categoria
+        ) filteredData
 
 printFilteredData filteredData
