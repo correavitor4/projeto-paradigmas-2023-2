@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AG9pZu/PtWihzBzIP9w3kxMS6XzOutbdILAt9cDne+loHZVVPl3Q73cu1irKmpdaSvLQ2soL/YSnbbGHuO5VMw==",
+  "dgSpecHash": "LqGeriQgDPoR3jzykQKizOfE17Y+u7AO/piQNTnus6hKgt8rAwFLtLOK2UyRVMhCoLf0CMQ86yvBbzo9VOI8ow==",
   "success": true,
-  "projectFilePath": "D:\\programacao\\F#\\projeto-paradigmas-2023-2\\trab\\trab.fsproj",
+  "projectFilePath": "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\muril\\.nuget\\packages\\fsharp.core\\7.0.400\\fsharp.core.7.0.400.nupkg.sha512"
+    "C:\\Users\\corre\\.nuget\\packages\\fsharp.core\\7.0.400\\fsharp.core.7.0.400.nupkg.sha512"
   ],
   "logs": []
 }

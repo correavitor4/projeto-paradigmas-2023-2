@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programacao\\F#\\projeto-paradigmas-2023-2\\trab\\trab.fsproj": {}
+    "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj": {}
   },
   "projects": {
-    "D:\\programacao\\F#\\projeto-paradigmas-2023-2\\trab\\trab.fsproj": {
+    "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programacao\\F#\\projeto-paradigmas-2023-2\\trab\\trab.fsproj",
+        "projectUniqueName": "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj",
         "projectName": "trab",
-        "projectPath": "D:\\programacao\\F#\\projeto-paradigmas-2023-2\\trab\\trab.fsproj",
-        "packagesPath": "C:\\Users\\muril\\.nuget\\packages\\",
-        "outputPath": "D:\\programacao\\F#\\projeto-paradigmas-2023-2\\trab\\obj\\",
+        "projectPath": "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\trab.fsproj",
+        "packagesPath": "C:\\Users\\corre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\corre\\RiderProjects\\projeto-paradigmas-2023-2\\trab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\muril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\corre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.400\\FSharp\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.401\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

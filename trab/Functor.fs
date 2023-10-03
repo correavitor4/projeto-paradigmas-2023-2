@@ -1,4 +1,4 @@
-module Trab.FunctorAndMonads
+module Trab.Functor
 
 open System
 open trab.Types.BagItem
@@ -10,7 +10,7 @@ type BagItemFunctor(item: BagItem) =
     member this.Map(f) =
         { item with Value = f item.Value }
 
-let execFunctorAndMonads =
+let execFunctor =
     let bagItems = [
         { Value = 25.0; Weight = 1.5 };
         { Value = 39.0; Weight = 2.0 };
@@ -29,7 +29,6 @@ let execFunctorAndMonads =
     let sortedItems =
         bagItems
         |> List.sortByDescending (fun item -> sortFunction item)
-
 
 
     let evaluateItem (acc, availableWeight) item =
