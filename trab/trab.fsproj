@@ -9,6 +9,7 @@
         <Compile Include="Types\BagItem.fs" />
         <Compile Include="Types\CourseOrProject.fs" />
         <Compile Include="HighOrderFunctions.fs" />
+        <Compile Include="FunctorAndMonads.fs" />
         <Compile Include="Curry.fs" />
         <Compile Include="Utils\Pause.fs" />
         <Compile Include="Closure.fs" />
