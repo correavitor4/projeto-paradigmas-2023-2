@@ -2,7 +2,17 @@
 
 open System
 open trab.Types.CourseOrProject
-open trab.Curry
+
+let filterByTitle (tit: string) (arr: CourseOrProject list) =
+        List.filter (fun item -> item.Titulo.Contains(tit)) arr
+
+let filterByWorkload (fcomp: (int -> bool) option) (arr: CourseOrProject list) =
+    match fcomp with
+    | Some(func) -> List.filter (fun item -> func item.CargaHoraria) arr
+    | None -> arr
+
+let filterByCategory (cat: string) (arr: CourseOrProject list) =
+    List.filter (fun item -> item.Categoria = cat) arr
 
 let getClosure =
     let itemsRef = ref [

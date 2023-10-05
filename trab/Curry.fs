@@ -2,16 +2,18 @@
 
 open trab.Types.CourseOrProject
 
-let filterByTitle (tit: string) (arr: CourseOrProject list) =
-        List.filter (fun item -> item.Titulo.Contains(tit)) arr
-
-let filterByWorkload (fcomp: (int -> bool) option) (arr: CourseOrProject list) =
-    match fcomp with
-    | Some(func) -> List.filter (fun item -> func item.CargaHoraria) arr
-    | None -> arr
-
 let filterByCategory (cat: string) (arr: CourseOrProject list) =
     List.filter (fun item -> item.Categoria = cat) arr
+    
+let filterByWorkload (min: int) (max: int) (arr: CourseOrProject list) =
+    let res = List.filter (fun item -> item.CargaHoraria >= min && item.CargaHoraria <= max) arr
+    let toReturn filterString =  filterByCategory filterString res
+    toReturn
+    
+let filterByTitle (tit: string) (arr: CourseOrProject list) =
+    let res = List.filter (fun item -> item.Titulo.Contains(tit)) arr
+    let toReturn min max = filterByWorkload min max res
+    toReturn
     
 let execCurry =
     let filter1 = [
@@ -27,10 +29,11 @@ let execCurry =
 
 
     let filteredData =
-        filterByTitle "arte"
-        >> filterByWorkload (Some(fun ch -> ch >= 10 && ch <= 40))
-        >> filterByCategory "projeto"
-        <| filter1
+        filterByTitle "arte" filter1 10 20 "projeto"
+        // filterByTitle "arte"
+        // >> filterByWorkload (Some(fun ch -> ch >= 10 && ch <= 40))
+        // >> filterByCategory "projeto"
+        // <| filter1
         
     let printFilteredData = 
         fun filteredData ->

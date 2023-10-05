@@ -9,12 +9,13 @@ open trab.Monads
 
 [<EntryPoint>]
 let main _ =
-    // execHighOrderFunctions
-    // makePause None
-    // execCurry
-    // makePause None
-    // execClosure
-    // makePause None
-    // execFunctor
+    execHighOrderFunctions
+    makePause None
+    execCurry
+    makePause None
+    execClosure
+    makePause None
+    execFunctor
+    makePause None
     execMonad
     0
